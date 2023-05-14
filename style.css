@@ -1,0 +1,136 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    margin: auto;
+    padding: 0;
+    /* background-image: url(images/overlay.png);   */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fafafa;
+
+
+    background: radial-gradient(
+        106.64% 115.35% at 4.1% 5.52%,
+        rgba(22, 28, 36, 0.48) 0%,
+        rgba(22, 28, 36, 0.8) 45.53%,
+        #161c24 100%,
+        #161c24 100%,
+        #161c24 100%
+      );
+
+}
+
+
+a {
+    text-decoration: none;
+    color: #fafafa;
+
+}
+
+main{
+    width: 1145px;
+    margin: 0 auto;
+}
+
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1145px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    margin: 0;
+    padding: 0;
+    margin-top: 33px; 
+
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+} 
+.header-logo img{
+    display: block;
+    width: 30px;
+    height: 30px;
+
+
+}
+.logo-text{
+    margin: 0;
+    padding: 0;
+    margin-left: 8px;
+
+    font-size: 26px;
+    font-weight: 400;
+}
+
+
+.start .title{
+    font-size: 64px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+.start-text{
+    font-size: 16px;
+    display: flex;
+    text-align: left;
+    margin-bottom: 50px;
+}
+span{
+    color: #3258FB;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+
+    border: 0 solid rgba(0, 0, 0, 0.3);
+    background-color: #3258FB;
+    cursor: pointer;
+    box-shadow: 0px 8px 16px rgba(50, 88, 251, 0.24);
+}
+.come-in{
+    margin-left: 940px;
+    margin-top: 30px;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* section img{
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    margin-top: 165px;
+} */
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block-text{
+    width: 466px;
+    justify-content: space-around;
+    /* margin-top: 228px; */
+}
+section img{
+    margin-top: 15px;
+    margin-left: 234px;
+}
+.start .img-phone{
+    width: 336.75px;
+    height: 655.19px;
+    margin-top: 85px;
+}
+    
